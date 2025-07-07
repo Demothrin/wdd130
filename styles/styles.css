@@ -1,3 +1,7 @@
+:root {
+    --picture-width: 200px;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -14,7 +18,7 @@ h1 {
 }
 
 main img {
-    width: 150px;
+    width: var(--picture-width);
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -40,7 +44,7 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: var(--picture-width);
     height: auto;
 }
 
