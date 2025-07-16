@@ -1,8 +1,8 @@
 :root {
     --primary-color: #009FFD;
     --secondary-color: #1B4079;
-    --accent1-color: #26C485;
-    --accent2-color: #E8E9F3;
+    --accent1-color: #000000;
+    --accent2-color: #ffffff;
     --heading-font: "Oswald", sans-serif;
     --body-font: "Roboto", sans-serif;
 }
@@ -15,20 +15,26 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -54,7 +60,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--accent2-color);
 }
 
@@ -64,11 +70,102 @@ article {
     right: 20px;
     bottom: 0px;
     background-color: var(--secondary-color);
-    
+
 }
 
 .hero article img {
     float: right;
     width: 125px;
     border: solid rgb(0, 0, 0, 0.2);
-    }
+}
+
+header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem auto;
+    border-bottom: 1px black solid;
+
+}
+
+header img {
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+    width: 125px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+
+.history {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+.adventure {
+    text-align: center;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+}
+
+.adventure h2 {
+    margin-bottom: 1rem;
+}
+
+.adventure-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    width: 100%;
+    font-weight: 700;
+
+}
+
+.adventure-img figure {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.adventure-img img {
+    width: 100%;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--accent1-color);
+}
+
+footer .socialmedia {
+    display: flex;
+    gap: 0.5rem;
+   
+}
+
+footer .socialmedia img {
+    width: 30px;
+    height: auto;
+}
