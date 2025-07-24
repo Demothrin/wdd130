@@ -331,3 +331,14 @@ footer .socialmedia img {
     gap: 0.5rem;
     line-height: 1.2;
 }
+
+.wireframe {
+  margin-top: 1rem;
+}
+
+.wireframe a {
+  text-decoration: none;
+  color: var(--accent1-color);
+  font-weight: bold;
+  
+}
