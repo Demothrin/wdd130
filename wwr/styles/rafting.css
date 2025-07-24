@@ -261,7 +261,6 @@ footer .socialmedia img {
 
 .contactform input[type="text"],
 .contactform input[type="email"],
-.contactform select,
 .contactform textarea {
     width: 100%;
     border: 1px solid #ccc;
