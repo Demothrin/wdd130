@@ -68,12 +68,23 @@
                     <input type="text" id="fullname" name="fullname">
                     <label for="email">Email Address:</label>
                     <input type="email" id="email" name="email">
-                    <label for="reason">Reason for Contact</label>
-                    <select name="reason" id="reason">
-                        <option value="refund">Request Refund</option>
-                        <option value="special">Special Occasion</option>
-                        <option value="other">Other</option>
-                    </select>
+                    <fieldset class="radiogroup">
+                        <legend>Reason for Contact:</legend>
+                        <div class="radio-option">
+                            <div>
+                                <input type="radio" id="inquiry" name="reason" value="inquiry">
+                                <label for="inquiry">General Inquiry</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="reservation" name="reason" value="reservation">
+                                <label for="reservation">Reservation Question</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="suggestion" name="reason" value="suggestion">
+                                <label for="suggestion">Website Suggestion</label>
+                            </div>
+                        </div>
+                    </fieldset>
                     <label for="message">Message:</label>
                     <textarea name="message" id="message" rows="8" placeholder="Write here..."></textarea>
                     <div class="checkbox">
@@ -98,6 +109,7 @@
             <a href="tiktok.com">
                 <img src="images/tiktok.jpg" alt="tiktok link picture">
             </a>
+            <a href="https://app.moqups.com/jEk8Ml6c0hKinp2c2xFCBRKAZYQHIsUi/view/page/ad64222d5">Wireframe</a>
         </nav>
     </footer>
 </body>

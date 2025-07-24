@@ -319,3 +319,16 @@ footer .socialmedia img {
     gap: 0.5rem;
     font-weight: normal;
 }
+
+.radio-option {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.radio-option div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1.2;
+}
