@@ -342,3 +342,37 @@ footer .socialmedia img {
   font-weight: bold;
   
 }
+
+.newsletter-form {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent2-color);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}
+
+.trip {
+  width: 100%;
+  max-width: 800px;
+  margin: -2rem auto 2rem auto;
+  padding: 0.5rem;
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
